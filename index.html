@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPENAN - Sistem Informasi Penyakit Tanaman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <img src= "Banner1.jpg" class="main-image">
+            <h1>Selamat Datang di SIMPENAN</h1>
+            <p>Sistem Informasi Penyakit Tanaman untuk Pertanian Berkelanjutan</p>
+        </header>
+
+        <hr>
+
+        <section class="info-section">
+            <h3>Layanan Utama Kami:</h3>
+            <ul>
+                <li>Identifikasi Penyakit Tanaman Secara Cepat</li>
+                <li>Database Hama dan Penyakit Terintegrasi</li>
+                <li>Konsultasi Ahli Pertanian</li>
+                <li>Panduan Penggunaan Pestisida Organik</li>
+            </ul>
+        </section>
+
+        <section class="table-section">
+            <h3>Daftar Penyakit Tanaman Umum</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Penyakit</th>
+                        <th>Gejala Utama</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Hawar Daun (Blight)</td>
+                        <td>Bercak coklat pada daun yang meluas cepat</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Karat Daun (Rust)</td>
+                        <td>Bintik-bintik berwarna jingga seperti karat</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Busuk Akar</td>
+                        <td>Tanaman layu mendadak dan akar menghitam</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="form-section">
+            <div class="card">
+                <h3>Buku Tamu Pengunjung</h3>
+                <p>Masukkan nama Anda untuk masuk ke sistem:</p>
+                <form id="guestForm">
+                    <div class="form-group">
+                        <label for="nama">Masukkan Nama Anda:</label>
+                        <input type="text" id="nama" required>
+                    </div>
+                    <button type="submit" id="btnMasuk">Masuk</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
